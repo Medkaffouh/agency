@@ -15,7 +15,7 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: white) {
   html {
     color-scheme: dark;
   }
@@ -23,4 +23,13 @@ a {
     color: white;
     background: black;
   }
+}
+
+.circle{
+  height: 100vh;
+  width: 100vh;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 999;
+  opacity: 0.1;
 }
